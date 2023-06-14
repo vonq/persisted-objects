@@ -1,5 +1,5 @@
 {
-    "name":         "vonq/persisted-objects",
+    "name":         "everzet/persisted-objects",
     "description":  "Overly simplistic persistance implementations for functional testing",
     "keywords":     ["Test", "DDD", "Repository", "Persistance", "BDD"],
     "homepage":     "https://github.com/everzet/persisted-objects",
@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "php": ">5.3,<7.5"
+        "php": ">5.3,<7.3"
     },
 
     "require-dev": {
@@ -23,6 +23,12 @@
     "autoload": {
         "psr-4": {
             "Everzet\\PersistedObjects\\": "src/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
