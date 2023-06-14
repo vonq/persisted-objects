@@ -1,5 +1,5 @@
 {
-    "name":         "everzet/persisted-objects",
+    "name":         "vonq/persisted-objects",
     "description":  "Overly simplistic persistance implementations for functional testing",
     "keywords":     ["Test", "DDD", "Repository", "Persistance", "BDD"],
     "homepage":     "https://github.com/everzet/persisted-objects",
